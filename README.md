@@ -21,7 +21,7 @@ To update all prefs.js in /home/user/.mozilla/firefox/xxxxxxx/prefs.js :
 $ python change_pref.py
 ```
   
-Example of use :
+Examples of use :
 ```
 $ python change_pref.py -p /home/user/.mozilla/firefox/xxxxxxx.default/prefs.js
 ```
@@ -37,5 +37,5 @@ $ python change_pref.py -m ./myprefs2.json
 
 You can set your own parameters in myprefs.json.  
 Details of parameters :  
-https://github.com/amq/firefox-debloat
-https://ecirtam.net/wiki/doku.php?id=wiki:firefox:about_config
+https://github.com/amq/firefox-debloat  
+https://ecirtam.net/wiki/doku.php?id=wiki:firefox:about_config  
