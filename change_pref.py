@@ -15,13 +15,13 @@ parser.add_option("-m", "--myprefs", dest="myprefs", default='myprefs.json', hel
 (options, args) = parser.parse_args()
 
 myprefs_file_name=options.myprefs
+prefs_file_names=[]
 if options.prefs != '':
-	prefs_file_names=options.prefs
-	if not os.path.isfile(prefs_file_names):
-		exit("File {} not found !".format(prefs_file_names))
+	if not os.path.isfile(options.prefs):
+		exit("File {} not found !".format(options.prefs))
+	prefs_file_names.append(options.prefs)
 else:
 	if os.path.isdir(options.firefox):
-		prefs_file_names=[]
 		firefox=options.firefox
 		if firefox[-1:] != '/':
 			firefox+='/'
