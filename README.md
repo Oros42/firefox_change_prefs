@@ -1,7 +1,7 @@
 # firefox_change_prefs
 Change parameters in firefox for better privacy.  
   
-When you open firefox, by default, it's connect to :   
+When you open firefox, by default, it connects to :   
 ```
 nb DNS request : domain   
 1 : www.mozilla.org.   
@@ -26,6 +26,7 @@ So how to fix it ?
 1- Read https://raw.githubusercontent.com/Oros42/firefox_change_prefs/master/user.js  
 2- Put user.js in your firefox profile's folder (/home/user/.mozilla/firefox/xxxxxxx.default/).  
   
-This script remove all google, pocket and mozilla URL who can track you.  
+This script removes all google, pocket and mozilla URL who can tracks you.  
   
-Old way in ./old/  
+  
+In the ./old/ directory, you can find an older python script that modifies the prefs.js file.  
