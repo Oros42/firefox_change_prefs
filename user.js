@@ -77,7 +77,7 @@ user_pref("network.http.sendRefererHeader",0); // http://lehollandaisvolant.net/
 user_pref("network.http.speculative-parallel-limit",0); // http://news.slashdot.org/story/15/08/14/2321202/how-to-quash-firefoxs-silent-requests
 user_pref("network.proxy.socks_remote_dns",true); // http://www.libre-parcours.net/2012/09/eviter-les-fuites-dns-dans-firefox-quand-on-utilise-un-proxy-socks/
 user_pref("plugins.click_to_play",true); // http://www.howtogeek.com/123986/how-to-enable-click-to-play-plugins-in-firefox/?PageSpeed=noscript
-user_pref("privacy.trackingprotection.enabled",true);
+user_pref("privacy.trackingprotection.enabled",false);
 user_pref("security.ssl3.dhe_rsa_aes_128_sha",false); // http://forums.mozillazine.org/viewtopic.php?p=14167697 https://www.ssllabs.com/ssltest/viewMyClient.html
 user_pref("security.ssl3.dhe_rsa_aes_256_sha",false); // http://forums.mozillazine.org/viewtopic.php?p=14167697 https://www.ssllabs.com/ssltest/viewMyClient.html
 user_pref("security.tls.version.max",3);
