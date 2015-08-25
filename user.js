@@ -14,45 +14,45 @@ user_pref("browser.download.panel.shown", true); // ask me where to save files
 user_pref("browser.newtab.url","about:blank");
 
 // kick pocket
-user_pref("browser.pocket.api","");
-user_pref("browser.pocket.enabled",false);
-user_pref("browser.pocket.enabledLocales","");
-user_pref("browser.pocket.oAuthConsumerKey","");
-user_pref("browser.pocket.site","");
-user_pref("browser.pocket.useLocaleList",false);
+user_pref("browser.pocket.api",""); // https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox
+user_pref("browser.pocket.enabled",false); // https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox
+user_pref("browser.pocket.enabledLocales",""); // https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox
+user_pref("browser.pocket.oAuthConsumerKey",""); // https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox
+user_pref("browser.pocket.site",""); // https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox
+user_pref("browser.pocket.useLocaleList",false); // https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox
 
 // I remove all URL because I don't want to
 // connecte my PC to Google
-user_pref("browser.safebrowsing.appRepURL", "");
-user_pref("browser.safebrowsing.downloads.enabled", false);
-user_pref("browser.safebrowsing.downloads.remote.enabled", false);
-user_pref("browser.safebrowsing.enabled", false);
-user_pref("browser.safebrowsing.gethashURL", "");
-user_pref("browser.safebrowsing.malware.enabled", false);
-user_pref("browser.safebrowsing.malware.reportURL", "");
-user_pref("browser.safebrowsing.reportErrorURL", "");
-user_pref("browser.safebrowsing.reportGenericURL", "");
-user_pref("browser.safebrowsing.reportMalwareErrorURL", "");
-user_pref("browser.safebrowsing.reportMalwareURL", "");
-user_pref("browser.safebrowsing.reportPhishURL", "");
-user_pref("browser.safebrowsing.reportURL", "");
-user_pref("browser.safebrowsing.updateURL", "");
-user_pref("browser.trackingprotection.gethashURL", "");
-user_pref("browser.trackingprotection.updateURL", "");
+user_pref("browser.safebrowsing.appRepURL", ""); // http://korben.info/comment-empecher-google-savoir-ce-telechargez-firefox.html
+user_pref("browser.safebrowsing.downloads.enabled", false); // kick google
+user_pref("browser.safebrowsing.downloads.remote.enabled", false); // kick google
+user_pref("browser.safebrowsing.enabled", false); // kick google
+user_pref("browser.safebrowsing.gethashURL", ""); // kick google
+user_pref("browser.safebrowsing.malware.enabled", false); // kick google
+user_pref("browser.safebrowsing.malware.reportURL", ""); // kick google
+user_pref("browser.safebrowsing.reportErrorURL", ""); // kick google
+user_pref("browser.safebrowsing.reportGenericURL", ""); // kick google
+user_pref("browser.safebrowsing.reportMalwareErrorURL", ""); // kick google
+user_pref("browser.safebrowsing.reportMalwareURL", ""); // kick google
+user_pref("browser.safebrowsing.reportPhishURL", ""); // kick google
+user_pref("browser.safebrowsing.reportURL", ""); // kick google
+user_pref("browser.safebrowsing.updateURL", ""); // kick google
+user_pref("browser.trackingprotection.gethashURL", ""); // kick mozilla
+user_pref("browser.trackingprotection.updateURL", ""); // kick mozilla
 
 user_pref("browser.search.defaultenginename", "DuckDuckGo");
 
-user_pref("browser.search.geoip.url", "");
+user_pref("browser.search.geoip.url", ""); // kick mozilla
 user_pref("geo.enabled",false);
-user_pref("geo.wifi.uri", "");
+user_pref("geo.wifi.uri", ""); // kick google
 
 user_pref("browser.search.openintab",true);
-user_pref("browser.search.showOneOffButtons",false);
+user_pref("browser.search.showOneOffButtons",false); // old search bar
 user_pref("browser.search.suggest.enabled",false);
 user_pref("browser.startup.page", 0);
 user_pref("browser.tabs.warnOnClose", false);
 user_pref("browser.tabs.warnOnOpen", false);
-user_pref("browser.urlbar.trimURLs",false); // I want to see http://
+user_pref("browser.urlbar.trimURLs",false); // I want to see http:// and https://
 user_pref("datareporting.healthreport.service.enabled",false);
 user_pref("datareporting.healthreport.uploadEnabled",false);
 user_pref("dom.event.clipboardevents.enable",false);
@@ -67,21 +67,21 @@ user_pref("general.useragent.vendor", "");
 
 user_pref("general.warnOnAboutConfig",false);
 user_pref("loop.enabled",true);
-user_pref("media.directshow.enabled",false);
-user_pref("media.eme.enabled",false);
-user_pref("media.gmp-eme-adobe.enabled",false);
-user_pref("media.peerconnection.enabled",false);
-user_pref("media.windows-media-foundation.enabled",false);
+user_pref("media.directshow.enabled",false); // https://support.mozilla.org/fr/questions/999164
+user_pref("media.eme.enabled",false); // https://wiki.mozilla.org/Media/EME
+user_pref("media.gmp-eme-adobe.enabled",false); // https://wiki.mozilla.org/Media/EME
+user_pref("media.peerconnection.enabled",false); // http://thehackernews.com/2015/02/webrtc-leaks-vpn-ip-address.html https://github.com/diafygi/webrtc-ips
+user_pref("media.windows-media-foundation.enabled",false); // https://support.mozilla.org/fr/questions/999164
 user_pref("network.dns.disablePrefetch",true);
-user_pref("network.http.sendRefererHeader",0);
-user_pref("network.http.speculative-parallel-limit",0);
-user_pref("network.proxy.socks_remote_dns",true);
-user_pref("plugins.click_to_play",true);
+user_pref("network.http.sendRefererHeader",0); // http://lehollandaisvolant.net/?d=2012/01/17/15/30/15-proteger-votre-vie-privee-sur-le-web-en-masquant-votre-provenance
+user_pref("network.http.speculative-parallel-limit",0); // http://news.slashdot.org/story/15/08/14/2321202/how-to-quash-firefoxs-silent-requests
+user_pref("network.proxy.socks_remote_dns",true); // http://www.libre-parcours.net/2012/09/eviter-les-fuites-dns-dans-firefox-quand-on-utilise-un-proxy-socks/
+user_pref("plugins.click_to_play",true); // http://www.howtogeek.com/123986/how-to-enable-click-to-play-plugins-in-firefox/?PageSpeed=noscript
 user_pref("privacy.trackingprotection.enabled",true);
-user_pref("security.ssl3.dhe_rsa_aes_128_sha",false);
-user_pref("security.ssl3.dhe_rsa_aes_256_sha",false);
+user_pref("security.ssl3.dhe_rsa_aes_128_sha",false); // http://forums.mozillazine.org/viewtopic.php?p=14167697 https://www.ssllabs.com/ssltest/viewMyClient.html
+user_pref("security.ssl3.dhe_rsa_aes_256_sha",false); // http://forums.mozillazine.org/viewtopic.php?p=14167697 https://www.ssllabs.com/ssltest/viewMyClient.html
 user_pref("security.tls.version.max",3);
 user_pref("security.tls.version.min",2); // but some fucking web site use tls < 2 T_T
 user_pref("services.sync.prefs.sync.browser.safebrowsing.enabled",false);
 user_pref("services.sync.prefs.sync.browser.safebrowsing.malware.enabled",false);
-user_pref("toolkit.telemetry.enabled",false);
+user_pref("toolkit.telemetry.enabled",false); // https://www.mozilla.org/en-US/privacy/firefox/#telemetry
