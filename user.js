@@ -90,5 +90,5 @@ user_pref("general.appname.override", "");
 user_pref("general.appversion.override", "");
 user_pref("general.oscpu.override", "");
 user_pref("general.platform.override", "");
-user_pref("general.useragent.override", "Mozilla/5.0 ()");
+user_pref("general.useragent.override", "Mozilla/5.0 () Gecko");
 user_pref("general.useragent.vendor", "");
