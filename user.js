@@ -15,6 +15,8 @@
 user_pref("accessibility.blockautorefresh",true); // Instead of refreshing a page automatically when <meta http-equiv="refresh"> is present (or Refresh HTTP headers),
 // display a browser message indicating the refresh and allow the user to follow it manually. 
 
+user_pref("browser.fixup.alternate.enabled",false); // To avoid the fix of http://foo to http://(prefix)foo(suffix)
+
 // kick pocket
 user_pref("browser.pocket.api",""); // https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox
 user_pref("browser.pocket.enabled",false); // https://support.mozilla.org/en-US/kb/save-web-pages-later-pocket-firefox
