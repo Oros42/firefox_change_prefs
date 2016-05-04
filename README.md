@@ -1,5 +1,5 @@
 # firefox_change_prefs
-Change parameters in firefox for better privacy.  
+Change parameters in firefox for better privacy and add some personnal conf.  
   
 When you open firefox, by default, it connects to :   
 ```
