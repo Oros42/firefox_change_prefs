@@ -52,6 +52,7 @@ user_pref("datareporting.healthreport.service.enabled",false);
 user_pref("datareporting.healthreport.uploadEnabled",false);
 user_pref("dom.event.clipboardevents.enable",false);
 
+user_pref("media.autoplay.enabled",false); // Stop autoplay of videos
 user_pref("media.directshow.enabled",false); // https://support.mozilla.org/fr/questions/999164
 user_pref("media.eme.enabled",false); // https://wiki.mozilla.org/Media/EME
 user_pref("media.gmp-eme-adobe.enabled",false); // https://wiki.mozilla.org/Media/EME
