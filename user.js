@@ -95,3 +95,6 @@ user_pref("general.oscpu.override", "");
 user_pref("general.platform.override", "");
 user_pref("general.useragent.override", "Mozilla/5.0 () Gecko");
 user_pref("general.useragent.vendor", "");
+
+// Phishing protection
+user_pref("network.IDN_show_punycode", "true"); //  https://thehackernews.com/2017/04/unicode-Punycode-phishing-attack.html
