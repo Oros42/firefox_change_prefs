@@ -63,7 +63,7 @@ user_pref("network.http.sendRefererHeader",0); // http://lehollandaisvolant.net/
 user_pref("network.http.speculative-parallel-limit",0); // http://news.slashdot.org/story/15/08/14/2321202/how-to-quash-firefoxs-silent-requests
 user_pref("network.proxy.socks_remote_dns",true); // http://www.libre-parcours.net/2012/09/eviter-les-fuites-dns-dans-firefox-quand-on-utilise-un-proxy-socks/
 user_pref("plugins.click_to_play",true); // http://www.howtogeek.com/123986/how-to-enable-click-to-play-plugins-in-firefox/?PageSpeed=noscript
-user_pref("security.tls.version.max",3);
+user_pref("security.tls.version.max",4); // 4 == TLS 1.3 https://www.ghacks.net/2017/06/15/how-to-enable-tls-1-3-support-in-firefox-and-chrome/
 user_pref("security.tls.version.min",2); // but some fucking web site use tls < 2 T_T
 user_pref("services.sync.prefs.sync.browser.safebrowsing.enabled",false);
 user_pref("services.sync.prefs.sync.browser.safebrowsing.malware.enabled",false);
